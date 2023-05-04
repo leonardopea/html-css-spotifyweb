@@ -16,14 +16,33 @@ body{
 
 
 header{                                          /* HEADER */
-    background-color: rgb(25, 25, 49);
+    background-color: #080B12;
     width: 100%;
-    height: 100px;
     position: sticky;
     top: 0;
     z-index: 1;
+    display: flex;
+    justify-content: flex-end;
     
 }
+
+.button_upgrade{
+    text-transform: uppercase;
+    margin: 20px 20px;
+    padding: 5px 20px;
+    border-radius: 20px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    font-size: 10px;
+    cursor: pointer;
+
+
+}
+.button_upgrade:hover{
+    transform: scale(110%);
+}
+
 
 /* --------------------------------------------------------------------- */
 /* --------------------------------------------------------------------- */
@@ -41,7 +60,7 @@ header{                                          /* HEADER */
 }
 .col_main2{
     width: calc(100% - 200px);
-    background-color: rgb(27, 27, 65);
+    background-color: #141922;
 }
 .col_main1, .col_main2{
     height: 100vh;
@@ -53,7 +72,7 @@ header{                                          /* HEADER */
 
 
 footer{                                         /* FOOTER */
-    background-color: rgb(44, 44, 51);
+    background-color: #282828;
     width: 100%;
     height: 100px;
     position: sticky;
