@@ -64,7 +64,9 @@ header{                                          /* HEADER */
 .col_main1, .col_main2{
     height: 100vh;
 }
-
+main{
+    color: white;
+}
 
 
 
@@ -95,8 +97,31 @@ hr{
     margin-top: 2px;
 }
        
-                        
 
+
+                                           
+.container_main{                       /* ALBUM */
+
+    margin-left: 15px;
+    margin-right: 50px;
+}
+.title_main{
+    font-weight: 800;
+    font-size: 18px;
+    margin-bottom: 20px;
+}            
+
+.row_album{
+    display: flex;
+    
+    
+}
+.col_album{
+    width: calc(100% / 6);
+}
+.img_album{
+    width: 90%
+}
 /* --------------------------------------------------------------------- */
 /* --------------------------------------------------------------------- */
 /* --------------------------------------------------------------------- */
@@ -154,13 +179,37 @@ LATO XS
     .col_main2{
         width: calc(100% - 50px);
     }
+    .col_album{
+        width: 50% ;
+    }
+    .row_album{
+        flex-wrap: wrap;
+    }
     
 }
 
 /***********************************
 LATO S
 ********************************** */
-@media screen and (max-width: 600px){
+@media screen and (min-width: 400px)and (max-width:600px) {
+    .col_album{
+        width: 50% ;
+    }
+    .row_album{
+        flex-wrap: wrap;
+    }
     
+}
+
+/***********************************
+LATO MD
+********************************** */
+@media screen and (min-width: 600px)and (max-width:800px){
+    .col_album{
+        width: 25% ;
+    }
+    .row_album{
+        flex-wrap: wrap;
+    }
 
 }
