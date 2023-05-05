@@ -26,6 +26,7 @@ header{                                          /* HEADER */
     
 }
 
+
 .button_upgrade{                           /* BOTTONE UPGRADE */       
     text-transform: uppercase;
     margin: 20px 20px;
@@ -62,9 +63,7 @@ header{                                          /* HEADER */
     width: calc(100% - 200px);
     background-color: #141922;
 }
-.col_main1, .col_main2{
-    height: 100vh;
-}
+
 main{
     color: white;
 }
@@ -109,13 +108,14 @@ hr{
 .title_main{
     font-weight: 800;
     font-size: 20px;
-    margin-bottom: 20px;
+    margin-top: 20px;
 }            
 
 
 .row_album{                       /* immagini album */
     display: flex;
     gap: 10px;
+    margin-top: 20px;
     
 }
 .col_album{
@@ -163,7 +163,13 @@ hr{
     text-align: center;
     
 }
-                            
+
+
+ /*artisti popolari  */
+
+ .img_border{
+    border-radius: 100%;
+ }
 
 /* --------------------------------------------------------------------- */
 /* --------------------------------------------------------------------- */
@@ -173,7 +179,7 @@ hr{
 footer{                                         /* FOOTER */
     background-color: #282828;
     width: 100%;
-    height: 100px;
+    height: 22px;
     position: sticky;
     bottom: 0;
     z-index: 3;
@@ -197,7 +203,7 @@ footer{                                         /* FOOTER */
 .col_nav{
     background-color: black;
     width: 200px;
-    height: calc(100%  - 100px);
+    height: calc(100% );
     position: absolute;
     top: 0;
     z-index: 2;
