@@ -11,6 +11,7 @@ LAVORO DESKTOP FIRST
 ********************************** */
 body{
     position: relative;
+    font-family: sans-serif;
 }
 
 
@@ -82,7 +83,7 @@ main{
 .col_menu{
     text-transform: uppercase ;
     color: rgb(135, 129, 129);
-    font-size: 9px;
+    font-size: 13px;
     text-decoration: none;
     
 }
@@ -107,21 +108,44 @@ hr{
 }
 .title_main{
     font-weight: 800;
-    font-size: 18px;
+    font-size: 20px;
     margin-bottom: 20px;
 }            
 
-.row_album{
+
+.row_album{                       /* immagini album */
     display: flex;
-    
+    gap: 10px;
     
 }
 .col_album{
-    width: calc(100% / 6);
+    width: calc(100% / 6 - 10px);
 }
 .img_album{
-    width: 90%
+    width: 100%;
+    position: relative;
 }
+
+
+
+
+
+.title_album{                      /* titoli album */
+    font-weight: 800;
+    font-size: 13px;
+    margin-top: 10px;
+}
+.subtitle{
+    color: #4E5157;
+    margin-top: 6px;
+    font-size: 10px;
+}
+.container_title_album{
+    text-align: center;
+    
+}
+                            
+
 /* --------------------------------------------------------------------- */
 /* --------------------------------------------------------------------- */
 /* --------------------------------------------------------------------- */
@@ -172,7 +196,7 @@ footer{                                         /* FOOTER */
 LATO XS
 ********************************** */
 
-@media screen and (max-width: 400px){       /* LA BARRA NAV RIMPICCIOLISCE */
+@media screen and (max-width: 552px){       /* LA BARRA NAV RIMPICCIOLISCE */
     .col_nav, .col_main1{
         width: 50px;
     }
@@ -180,7 +204,7 @@ LATO XS
         width: calc(100% - 50px);
     }
     .col_album{
-        width: 50% ;
+        width: calc(50% - 10px) ;
     }
     .row_album{
         flex-wrap: wrap;
@@ -191,9 +215,9 @@ LATO XS
 /***********************************
 LATO S
 ********************************** */
-@media screen and (min-width: 400px)and (max-width:600px) {
+@media screen and (min-width: 552px)and (max-width:639px) {
     .col_album{
-        width: 50% ;
+        width: calc(50% - 10px) ;
     }
     .row_album{
         flex-wrap: wrap;
@@ -204,9 +228,9 @@ LATO S
 /***********************************
 LATO MD
 ********************************** */
-@media screen and (min-width: 600px)and (max-width:800px){
+@media screen and (min-width: 639px)and (max-width:878px){
     .col_album{
-        width: 25% ;
+        width: calc(25% - 10px);
     }
     .row_album{
         flex-wrap: wrap;
