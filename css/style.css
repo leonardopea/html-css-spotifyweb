@@ -123,7 +123,26 @@ hr{
 }
 .img_album{
     width: 100%;
+}
+
+/* playbutton */
+
+.container_for_playbutton{
     position: relative;
+}
+.playbutton{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+.container_for_playbutton:hover .playbutton{
+    display: block;
+}
+.container_for_playbutton:hover .img_album{
+    filter: opacity(40%);
 }
 
 
