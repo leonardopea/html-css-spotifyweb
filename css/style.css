@@ -198,7 +198,6 @@ footer{                                         /* FOOTER */
 .col_footer{
     width: calc(100% / 3);
     height: 60px;
-    background-color: antiquewhite;
     display: flex;
     align-items: center;
     
@@ -228,6 +227,11 @@ footer{                                         /* FOOTER */
     width: 100px;
 
 }
+.brano:hover{
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+}
 
 .container_due_titoli{
     display: flex;
@@ -240,6 +244,10 @@ footer{                                         /* FOOTER */
     width: 30px;
 }
 
+.fa-regular:hover{
+    color: white !important;
+    scale: 1.5;
+}
 
 
 
