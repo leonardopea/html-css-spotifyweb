@@ -357,7 +357,7 @@ footer{                                         /* FOOTER */
 
 
 
-.col_logo, .col_ricerca1, .col_playlist, .col_nome_playlist{               /* logo */
+.col_logo, .col_ricerca1, .col_playlist, .col_nome_playlist, .col_finale{               /* logo */
     width: 100%;
     display: flex;
     justify-content: flex-start;
@@ -427,9 +427,37 @@ footer{                                         /* FOOTER */
 }
 .col_overflow{
     overflow-y: auto;
+    
 }
 li{
     list-style-type: none;
+}
+.ultima_row{
+    margin-bottom: 400px;
+}
+.download{                       /* download */
+    width: 10%;
+    margin-left: 16px;
+}
+.spazio{
+    margin-left: 10px;
+}
+.linea_finale{
+    color: gray;
+    width: calc(100% - 32px);
+    margin-top: 10px;
+}
+.profile{
+    width: 15%;
+    background-color: grey;
+    border-radius: 100%;
+    margin-left: 16px;
+    margin-top: 10px;
+}
+.john{
+    font-weight: 800;
+    font-size: 16px;
+    padding-top: 10px;
 }
 
 
