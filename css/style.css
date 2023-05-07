@@ -354,7 +354,16 @@ footer{                                         /* FOOTER */
 
     
 }
+/* hover nav */
 
+.titolo_ricerca:hover{
+    cursor: pointer;
+    color: white;
+}
+.titolo_alternativo:hover{
+    cursor: pointer;
+    color: white;
+}
 
 
 .col_logo, .col_ricerca1, .col_playlist, .col_nome_playlist, .col_finale{               /* logo */
