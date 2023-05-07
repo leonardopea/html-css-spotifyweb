@@ -314,7 +314,10 @@ footer{                                         /* FOOTER */
     background-color: #4E5157;
     
 }
-
+.volume:hover{
+    background-color: yellowgreen;
+    cursor: pointer;
+}
 .col_row2{
     color: white;
     font-size: 12px;
@@ -324,6 +327,13 @@ footer{                                         /* FOOTER */
 .barra{
     align-items: center;
 }
+
+.gap1:hover{
+    scale: 1.2;
+    cursor: pointer;
+}
+
+
 /* --------------------------------------------------------------------- */
 /* --------------------------------------------------------------------- */
 /* --------------------------------------------------------------------- */
