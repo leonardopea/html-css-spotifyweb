@@ -56,7 +56,6 @@ header{                                          /* HEADER */
 }
 .col_main1{
     width: 200px;
-    background-color: aqua;
     
 }
 .col_main2{
@@ -351,16 +350,93 @@ footer{                                         /* FOOTER */
     position: absolute;
     top: 0;
     z-index: 2;
+    color: white;
+
+    
 }
 
 
 
+.col_logo, .col_ricerca1, .col_playlist, .col_nome_playlist{               /* logo */
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+.logo_spotify{
+    margin: 20px 20px;
+    display: block;
+    width: 50%;
+}
+.logo_spotify_bloccato{
+    display: none;
+    width:100%;
+    margin: 20px 10px;
+}
 
 
 
+.logo_ricerca{               /* ricerca */
+    width: 10%;
+    margin-left: 20px;
+}
+.logo_bordered{
+    margin-left: 16px;
+}
+
+.titolo_ricerca{
+    font-size: 10px;
+    font-weight: 800;
+    margin-left: 5px;
+
+}
+
+.titolo_alternativo{
+    color: gray;
+}
+
+
+.logo_grigio{
+    filter: invert(50%);
+}
+
+.col_ricerca1{
+    margin-top: 10px;
+    
+}
+.border_colored{
+    border-left: 4px solid yellowgreen
+}
+
+
+.col_playlist{                 /* playlist */
+    font-weight: 800;
+    font-size: 10px;
+    margin-left: 20px;
+}
+
+.play1{
+    margin-top: 20px;
+}
+
+
+.col_nome_playlist{
+    margin-left: 20px;
+    margin-top: 8px;
+}
+.col_overflow{
+    overflow-y: auto;
+}
+li{
+    list-style-type: none;
+}
 
 
 
+.casa_bloccata{
+    display: none;
+}
 /***********************************
 LATO XS
 ********************************** */
@@ -384,6 +460,13 @@ LATO XS
     }
     .folder{
         justify-content: center;
+    }
+
+    .logo_spotify, .col_playlist, .col_nome_playlist, .titolo_ricerca, .titolo_alternativo, .border_colored {
+        display: none;
+    }
+    .logo_spotify_bloccato, .casa_bloccata{
+        display: block;
     }
 }
 
